@@ -1,7 +1,7 @@
 import socket, os
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    host = "192.168.61.73" #IP for the host machine
+    host = "" #IP for the server
     port = 8001 #port
     path = "E:/Projects/Networks/File transfer/client.py" #path to the file you want to transfer
 
